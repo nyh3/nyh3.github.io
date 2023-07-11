@@ -1,18 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
+    <title>Verified Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
 
-        <title>Verified Email</title>
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-    </head>
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
 
-    <body>
+        .message {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
 
-        <P>
-            You have verified your email, you may now go back to our app and sign in
-        </P>
+        .cta-button {
+            display: inline-block;
+            background-color: #4caf50;
+            color: #ffffff;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
 
-    </body>
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Verified Email</h1>
+        <p class="message">Thank you for verifying your email!</p>
+        <p class="message">You may now go back to our app and sign in to continue.</p>
+        <p class="message">We hope you find the food you want!</p>
+        <a class="cta-button" href="your-app-url">Go to App</a>
+    </div>
+</body>
 
 </html>
